@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <HorizontalScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="3dp"-->
+<!--                    android:layout_marginLeft="7dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginRight="7dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="86dp"-->
+<!--                        android:layout_height="86dp"-->
+<!--                        android:src="@drawable/story"-->
+<!--                        app:civ_border_color="@color/instacenter"-->
+<!--                        app:civ_border_width="2dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="John"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="3dp"-->
+<!--                    android:layout_marginLeft="7dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginRight="7dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="86dp"-->
+<!--                        android:layout_height="86dp"-->
+<!--                        android:src="@drawable/story"-->
+<!--                        app:civ_border_color="@color/instacenter"-->
+<!--                        app:civ_border_width="2dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="John"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="3dp"-->
+<!--                    android:layout_marginLeft="7dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginRight="7dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="86dp"-->
+<!--                        android:layout_height="86dp"-->
+<!--                        android:src="@drawable/story"-->
+<!--                        app:civ_border_color="@color/instacenter"-->
+<!--                        app:civ_border_width="2dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="John"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="3dp"-->
+<!--                    android:layout_marginLeft="7dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginRight="7dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="86dp"-->
+<!--                        android:layout_height="86dp"-->
+<!--                        android:src="@drawable/story"-->
+<!--                        app:civ_border_color="@color/instacenter"-->
+<!--                        app:civ_border_width="2dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="John"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="3dp"-->
+<!--                    android:layout_marginLeft="7dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginRight="7dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="86dp"-->
+<!--                        android:layout_height="86dp"-->
+<!--                        android:src="@drawable/story"-->
+<!--                        app:civ_border_color="@color/instacenter"-->
+<!--                        app:civ_border_width="2dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="John"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="3dp"-->
+<!--                    android:layout_marginLeft="7dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginRight="7dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="86dp"-->
+<!--                        android:layout_height="86dp"-->
+<!--                        android:src="@drawable/story"-->
+<!--                        app:civ_border_color="@color/instacenter"-->
+<!--                        app:civ_border_width="2dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="John"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="3dp"-->
+<!--                    android:layout_marginLeft="7dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginRight="7dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="86dp"-->
+<!--                        android:layout_height="86dp"-->
+<!--                        android:src="@drawable/story"-->
+<!--                        app:civ_border_color="@color/instacenter"-->
+<!--                        app:civ_border_width="2dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="John"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="3dp"-->
+<!--                    android:layout_marginLeft="7dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginRight="7dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="86dp"-->
+<!--                        android:layout_height="86dp"-->
+<!--                        android:src="@drawable/story"-->
+<!--                        app:civ_border_color="@color/instacenter"-->
+<!--                        app:civ_border_width="2dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="John"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="3dp"-->
+<!--                    android:layout_marginLeft="7dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginRight="7dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="86dp"-->
+<!--                        android:layout_height="86dp"-->
+<!--                        android:src="@drawable/story"-->
+<!--                        app:civ_border_color="@color/instacenter"-->
+<!--                        app:civ_border_width="2dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="John"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="3dp"-->
+<!--                    android:layout_marginLeft="7dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginRight="7dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:layout_width="86dp"-->
+<!--                        android:layout_height="86dp"-->
+<!--                        android:src="@drawable/story"-->
+<!--                        app:civ_border_color="@color/instacenter"-->
+<!--                        app:civ_border_width="2dp" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="3dp"-->
+<!--                        android:gravity="center_horizontal"-->
+<!--                        android:text="John"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="12sp" />-->
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </HorizontalScrollView>-->
+
+<!--    </LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="3dp"
+        android:background="#CECECE" />
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recycler_view"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+</LinearLayout>

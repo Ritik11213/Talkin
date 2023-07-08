@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Talkin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_post_home">PostHomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">New Post</string>
+    <string name="title_notifications">My Posts</string>
+    <string name="title_activity_testnav">testnav</string>
+    <string name="title_activity_test_nav">TestNavActivity</string>
+</resources>
